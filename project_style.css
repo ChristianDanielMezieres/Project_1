@@ -2,3 +2,12 @@
 
 @media query
   {
+}
+
+#threeperformances 
+{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
