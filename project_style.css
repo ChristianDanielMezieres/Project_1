@@ -1,13 +1,13 @@
 /* Illico Fresco web page style sheet */
 
 @media query
-  {
+{
 }
 
-#threeperformances 
+#choices 
 {
     display: flex;
     flex-direction: column;
   }
-}
+
 
