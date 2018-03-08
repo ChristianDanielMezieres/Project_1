@@ -1,0 +1,196 @@
+
+body {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+.bgcolor {
+    background-color: #faa179;
+}
+
+.bgheader {
+    background-color: #ffffff;
+    min-height: 100px;
+    width: 100px;
+}
+
+.header {
+    width: 100px;
+    height: 100px;
+}
+
+.logo {
+   text-align: right;
+   margin-left: 25%; 
+   width: 143px;
+   height: 85px;
+}
+
+.logo-center {
+    margin-left: 40%;
+    
+}
+
+
+
+.navbar-items {
+    vertical-align: center;
+    padding-top: 35px;
+    padding-left: 18px;
+}
+
+.container-fluid {
+    max-height: 74px;
+
+}
+
+
+.count {
+
+    padding-top: 45px;
+    font-size: 15px;
+    width: 200px;
+}
+
+.compte_img_png {
+    wight: 50%;
+}
+
+.bt_count {
+
+    text-align: right;
+}
+
+
+.count a:link {
+    color: #2e4e47;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.button-orange {
+    background-color: #faa179;
+    color: #ffffff;
+    padding: 0 8px 0 8px;
+    border: 1px solid #faa179;
+    margin-left: 10px;
+}
+
+.banner {
+    height: 380px;
+    background: url("../img/header_IF_mobile.jpg") no-repeat;
+    background-size: 100%;
+    right: 0;
+}
+
+
+.bouton_banner {
+    color: #ffffff;
+    background-color: #faa179;
+    font-size: 20px;
+    width: 400px;
+    border: 1px solid #faa179;
+}
+
+.savoir_plus {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+.savoir_plus a:hover {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+.panier {
+    background: url("../img/picture_1.jpg") repeat-x;
+
+    min-height: 500px;
+}
+
+.container-panier {
+    width: 920px;
+    background-color: #ffffff;
+    height: 800px;
+    margin-left: 40%;
+    text-align: center;
+}
+
+.panier-title {
+    font-size: 42px;
+}
+
+.in_bold {
+    font-weight: bold;
+    font-size: 22px;
+}
+.font_thin {
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.section {
+    min-height: 300px;
+}
+
+
+
+.title {
+    color: #2e4e47;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.middle-bar {
+    width: 400px;
+    text-align: center;
+    height: 5px;
+    margin-bottom: 30px;
+}
+
+.icon-1 {
+    background-color: #2e4e47;
+    width: 113px;
+    height: 113px;
+    
+}
+
+.logo-center {
+    display:none;
+}
+
+
+
+@media only screen and (max-width: 990px){
+
+    .menu, .count { 
+        display:none;
+    }
+    .col {
+        width: 100%;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo-center {
+        display: block;
+        width: 113px;
+        height: 70px;
+        align-content: center;
+    }
+
+    .panier {
+        display: none;
+    }
+
+}
