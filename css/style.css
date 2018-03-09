@@ -1,0 +1,372 @@
+
+body {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@font-face {
+    font-family: "Caviar";
+    src: url("../font/Caviar_Dreams_Bold.ttf");
+}
+
+
+
+.bgcolor {
+    background-color: #faa179;
+}
+
+.bgheader {
+    background-color: #ffffff;
+    min-height: 100px;
+    width: 100px;
+}
+
+.header {
+    width: 100px;
+    height: 100px;
+}
+
+.logo {
+   text-align: right;
+   margin-left: 25%; 
+   width: 143px;
+   height: 85px;
+}
+
+.logo-center {
+    margin-left: 42%;
+    
+}
+
+
+
+.navbar-items {
+    vertical-align: center;
+    padding-top: 35px;
+    padding-left: 18px;
+}
+
+.container-fluid {
+    max-height: 74px;
+
+}
+
+
+a:hover {
+    color: #ffffff;
+}
+
+
+.bouton_banner a {
+    color: #ffffff;
+}
+
+.bouton_banner a:hover {
+    text-decoration: none;
+}
+
+.count {
+
+    padding-top: 45px;
+    font-size: 15px;
+    width: 200px;
+}
+
+.count a {
+    color: #000000;
+}
+
+.compte_img_png {
+    width: 30px;
+}
+
+.milieu {
+    text-align: center;
+    
+}
+
+
+.livraison {
+    display: none;
+}
+
+.suivez-nous {
+    display: none;
+}
+
+
+.text-title {
+    font-size: 42px;
+    margin: 40px 0 40px 0;
+    text-align: center;
+    font-family: "Caviar";
+}
+
+span {
+    font-family: 'Meddon';
+}
+
+
+
+
+.bt_count a:link {
+    color: #000000;
+    text-align: right;
+}
+
+
+.count a:link {
+    color: #2e4e47;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.button-orange {
+    background-color: #faa179;
+    color: #ffffff;
+    padding: 0 8px 0 8px;
+    border: 1px solid #faa179;
+    margin-left: 10px;
+}
+
+.banner {
+    height: 380px;
+    background: url("../img/header_IF_mobile.jpg") no-repeat;
+    background-size: 100%;
+    right: 0;
+}
+
+
+.bouton_banner {
+    color: #ffffff;
+    background-color: #faa179;
+    font-size: 20px;
+    
+    border: 1px solid #faa179;
+}
+
+.bouton_banner_2 {
+    color: #ffffff;
+    background-color: #faa179;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #faa179;
+
+}
+
+.savoir_plus {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+.savoir_plus a:hover {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+.panier {
+    background: url("../img/picture_1.jpg") repeat;
+
+    min-height: 500px;
+}
+
+.container-panier {
+    background-size: 100%;
+    background-color: #ffffff;    
+    text-align: center;
+}
+
+.test {
+    background-color: #ffffff;
+    height: auto;
+    margin-left: 50%;
+    text-align: center;
+}
+
+.bg-banner-cell3 {
+    background: url("../img/picture_1.jpg") repeat-x;
+
+
+}
+
+.panier-title {
+    font-size: 42px;
+   
+}
+
+.in_bold {
+    font-weight: bold;
+    font-size: 22px;
+}
+.font_thin {
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.section {
+    min-height: 300px;
+}
+
+.container-carousel {
+    margin: auto;
+    width: 800px;
+    background-color: #faa179;
+}
+
+
+.container-second {
+    background-color: rgb(252, 247, 241);
+    height: 800px;
+    width: 100%;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.container-third {
+    background-color: rgb(252, 247, 241);
+    min-height: 400px;
+    width: 100%;
+
+
+}
+
+.carousel {
+    
+    height: 600px;
+    margin: auto;
+}
+
+
+.text-carousel {
+    text-align: center;
+    margin: 70px 0 70px;
+}
+
+.title {
+    color: #2e4e47;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text-title-2 {
+    font-size: 42px;
+    padding-top: 5px;
+}
+
+.middle-bar {
+    width: 400px;
+    text-align: center;
+    height: 5px;
+    margin-bottom: 30px;
+}
+
+.icon-1 {
+    background-color: #2e4e47;
+    width: 113px;
+    height: 113px;
+    
+}
+
+.logo-center  {
+    display: none;
+}
+
+.contact-form {
+    display: none;
+}
+
+
+.caroussel-center {
+    align-content: center;
+}
+
+
+
+
+
+@media only screen and (max-width: 990px){
+
+    .menu, .count { 
+        display:none;
+    }
+    .col {
+        width: 100%;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo-center {
+        display: block;
+        width: 113px;
+        height: 70px;
+        align-content: center;
+    }
+
+    .panier {
+        display: none;
+    }
+
+    .container {
+        display: none;
+    }
+
+
+    .livraison {
+        background-color: #2e4e47;
+        color: #ffffff;
+        text-align: center;
+        height: 60px;
+        padding-top: 15px;
+    }
+    
+    .suivez-nous {
+        background-color: #faa179;
+        color: #ffffff;
+        text-align: center;
+        height: 60px;
+        margin-top: -16px;
+        padding-top: 15px;
+    }
+
+
+    .small-text {
+        font-size: 8px;
+    }
+
+    .contact-form {
+        width: 100%;
+        height: 200px;
+        background-color: coral;
+    }
+
+    .container-second {
+        display: none;
+    }
+
+
+
+    .col-md-3 {display: none;}
+    
+    .col-6 {display: none}
+   }
+ 
+    .justbutton
+    {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #edb187;
+    padding: 30px 125px 125px 30px;
+    width: 50%;
+    }
+
+
+}
