@@ -8,7 +8,7 @@ body {
 
 @font-face {
     font-family: "Caviar";
-    src: url(../font/Caviar_Dreams_Bold.ttf);
+    src: url("../font/Caviar_Dreams_Bold.ttf");
 }
 
 
@@ -88,13 +88,7 @@ a:hover {
 }
 
 
-.livraison {
-    display: none;
-}
 
-.suivez-nous {
-    display: none;
-}
 
 
 .text-title {
@@ -102,6 +96,10 @@ a:hover {
     margin: 40px 0 40px 0;
     text-align: center;
     font-family: "Caviar";
+}
+
+span {
+    font-family: 'Meddon';
 }
 
 
@@ -139,7 +137,7 @@ a:hover {
     color: #ffffff;
     background-color: #faa179;
     font-size: 20px;
-    width: 400px;
+    
     border: 1px solid #faa179;
 }
 
@@ -149,7 +147,7 @@ a:hover {
     width: 300px;
     height: 40px;
     border: 1px solid #faa179;
-    margin-top: 40px;
+
 }
 
 .savoir_plus {
@@ -167,17 +165,28 @@ a:hover {
 }
 
 .panier {
-    background: url("../img/picture_1.jpg") repeat-x;
+    background: url("../img/picture_1.jpg") repeat;
 
     min-height: 500px;
 }
 
 .container-panier {
-    width: 920px;
-    background-color: #ffffff;
-    height: 700px;
-    margin-left: 40%;
+    background-size: 100%;
+    background-color: #ffffff;    
     text-align: center;
+}
+
+.test {
+    background-color: #ffffff;
+    height: auto;
+    margin-left: 50%;
+    text-align: center;
+}
+
+.bg-banner-cell3 {
+    background: url("../img/picture_1.jpg") repeat-x;
+
+
 }
 
 .panier-title {
@@ -211,6 +220,20 @@ a:hover {
     width: 100%;
     margin-top: 40px;
     padding-top: 40px;
+}
+
+.container-third {
+    background-color: rgb(252, 247, 241);
+    min-height: 400px;
+    width: 100%;
+
+
+}
+
+.carousel {
+    
+    height: 600px;
+    margin: auto;
 }
 
 
@@ -250,6 +273,11 @@ a:hover {
 
 .contact-form {
     display: none;
+}
+
+
+.caroussel-center {
+    align-content: center;
 }
 
 
