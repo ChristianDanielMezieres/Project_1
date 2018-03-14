@@ -276,7 +276,7 @@ span {
     color: #ffffff;
     padding-top: 40px;
     font-size: 24px;
-    ine-height: 16px;
+    line-height: 16px;
     margin-left: -15px;
 }
 
@@ -316,16 +316,28 @@ span {
     padding-top: 5%;
 }
 
+.btn-abonne {
+    background-color: #ffffff;
+    font-size: 16px;
+    color: #2e4e47;
+    padding: 0 10px 0 10px;
+    border: 1px solid #ffffff;
+    height: 35px;
+    width: 200px;
+    position: relative;
+    left: 43%;
+}
+
 @media only screen and (max-width: 990px) {
     .menu,
-    .count {
+    .count,
+    .logo,
+    .green-sction,
+    .image-section {
         display: none;
     }
     .col {
         width: 100%;
-    }
-    .logo {
-        display: none;
     }
     .logo-center {
         display: block;
