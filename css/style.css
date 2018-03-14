@@ -8,7 +8,7 @@ body {
 
 @font-face {
     font-family: "Caviar";
-    src: url(../font/Caviar_Dreams_Bold.ttf);
+    src: url("../font/Caviar_Dreams_Bold.ttf");
 }
 
 
