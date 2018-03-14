@@ -95,6 +95,10 @@ span {
     font-family: "Caviar";
 }
 
+span {
+    font-family: 'Meddon';
+}
+
 .bt_count a:link {
     color: #000000;
     text-align: right;
@@ -159,6 +163,13 @@ span {
 .container-panier {
     background-size: 100%;
     background-color: #ffffff;
+    text-align: center;
+}
+
+.test {
+    background-color: #ffffff;
+    height: auto;
+    margin-left: 50%;
     text-align: center;
 }
 
@@ -374,7 +385,4 @@ span {
     color: #edb187;
     padding: 30px 125px 125px 30px;
     width: 50%;
-}
-
-
 }
