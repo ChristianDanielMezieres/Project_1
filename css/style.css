@@ -280,6 +280,61 @@ span {
     align-content: center;
 }
 
+/*--------------- section image la boite du mois -------------------*/
+
+.container-green {
+    background-size: 100%;
+}
+
+.green-sction {
+    background-color: #b4bb9a;
+    width: cover;
+    min-height: 200px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 40px;
+    font-size: 24px;
+    ine-height: 16px;
+    margin-left: -15px;
+}
+
+.green-bar-section {
+    width: 60%;
+    height: 1px;
+    background-color:  #2e4e47;
+}
+.text-green-section-white{
+    color: #ffffff;
+    font-family: "arial"; 
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 2px;
+
+}
+
+
+.text-green-section {
+    color: #2e4e47;
+    font-family: "arial"; 
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 10px;
+}
+
+.image-section {
+    background-image: url("../img/table.jpg");
+    background-size: cover;
+    min-height: 450px;  
+    width: &00%;  
+}
+
+.green-section-table {
+    font-size: 8em;
+    color: #ffffff;
+    text-align: center; 
+    padding-top: 5%;
+}
+
 
 
 
