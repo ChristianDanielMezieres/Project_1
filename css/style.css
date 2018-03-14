@@ -42,10 +42,6 @@ body {
     padding-left: 18px;
 }
 
-.container-fluid {
-    max-height: 74px;
-}
-
 a:hover {
     color: #ffffff;
 }
@@ -204,7 +200,6 @@ span {
 .container-second {
     background-color: rgb(252, 247, 241);
     height: 800px;
-    width: 100%;
     margin-top: 40px;
     padding-top: 40px;
 }
