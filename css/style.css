@@ -8,11 +8,7 @@ body {
 
 @font-face {
     font-family: "Caviar";
-<<<<<<< HEAD
     src: url("../font/Caviar_Dreams_Bold.ttf");
-=======
-    src: url(../font/Caviar_Dreams_Bold.ttf);
->>>>>>> chrys
 }
 
 
@@ -84,32 +80,6 @@ a:hover {
 
 .compte_img_png {
     width: 30px;
-<<<<<<< HEAD
-}
-
-.milieu {
-    text-align: center;
-    
-}
-
-
-
-
-
-.text-title {
-    font-size: 42px;
-    margin: 40px 0 40px 0;
-    text-align: center;
-    font-family: "Caviar";
-}
-
-span {
-    font-family: 'Meddon';
-}
-
-
-
-=======
 }
 
 .milieu {
@@ -126,6 +96,10 @@ span {
     display: none;
 }
 
+span {
+    font-family: 'Meddon';
+}
+
 
 .text-title {
     font-size: 42px;
@@ -134,9 +108,6 @@ span {
     font-family: "Caviar";
 }
 
-
-
->>>>>>> chrys
 
 .bt_count a:link {
     color: #000000;
@@ -180,11 +151,7 @@ span {
     width: 300px;
     height: 40px;
     border: 1px solid #faa179;
-<<<<<<< HEAD
-
-=======
     margin-top: 40px;
->>>>>>> chrys
 }
 
 .savoir_plus {
@@ -213,21 +180,8 @@ span {
     text-align: center;
 }
 
-.test {
-    background-color: #ffffff;
-<<<<<<< HEAD
-    height: auto;
-    margin-left: 50%;
-=======
-    height: 700px;
-    margin-left: 40%;
->>>>>>> chrys
-    text-align: center;
-}
-
 .bg-banner-cell3 {
     background: url("../img/picture_1.jpg") repeat-x;
-
 
 }
 
@@ -264,19 +218,15 @@ span {
     padding-top: 40px;
 }
 
-<<<<<<< HEAD
 .container-third {
     background-color: rgb(252, 247, 241);
     min-height: 400px;
     width: 100%;
-=======
->>>>>>> chrys
+}
 
 .text-carousel {
     text-align: center;
     margin: 70px 0 70px;
-}
-
 }
 
 .carousel {
@@ -322,7 +272,6 @@ span {
 
 .contact-form {
     display: none;
-<<<<<<< HEAD
 }
 
 
@@ -369,15 +318,13 @@ span {
     font-size: 20px;
     padding-bottom: 20px;
     line-height: 10px;
-=======
->>>>>>> chrys
 }
 
 .image-section {
     background-image: url("../img/table.jpg");
     background-size: cover;
     min-height: 450px;  
-    width: &00%;  
+    width: 100%;  
 }
 
 .green-section-table {
