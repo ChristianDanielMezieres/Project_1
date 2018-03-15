@@ -115,7 +115,7 @@ span {
 }
 
 .banner {
-    height: 380px;
+    height: 500px;
     background: url("../img/header_IF_mobile.jpg") no-repeat;
     background-size: 100%;
     right: 0;
@@ -200,8 +200,9 @@ span {
 .container-second {
     background-color: rgb(252, 247, 241);
     height: 800px;
-    margin-top: 40px;
+    margin: 40px 0 0 0px;
     padding-top: 40px;
+
 }
 
 .container-third {
@@ -253,9 +254,6 @@ span {
     display: none;
 }
 
-.contact-form {
-    display: none;
-}
 
 .caroussel-center {
     align-content: center;
@@ -276,7 +274,7 @@ span {
     color: #ffffff;
     padding-top: 40px;
     font-size: 24px;
-    ine-height: 16px;
+    line-height: 16px;
     margin-left: -15px;
 }
 
@@ -316,16 +314,103 @@ span {
     padding-top: 5%;
 }
 
+.btn-abonne {
+    background-color: #ffffff;
+    font-size: 16px;
+    color: #2e4e47;
+    padding: 0 10px 0 10px;
+    border: 1px solid #ffffff;
+    height: 35px;
+    width: 200px;
+    position: relative;
+    left: 43%;
+}
+
+.footer {
+    background-color: rgb(248, 245, 240);
+    min-height: 200px;
+    padding-top: 30px;
+    color: #2e4e47;
+    font-size: 14px;
+}
+
+.footer ul li {
+    list-style: none;
+    color: #2e4e47;
+    padding: 3px;
+}
+
+.footer ul li a {
+    text-decoration-style: none;
+    color: #2e4e47;
+    width: 350px;
+}
+
+form {
+    border: 3px solid #2e4e47;
+    padding: 5px;
+    width: 350px;
+    height: 200px;
+}
+input {
+    width: 320px;
+    background-color: rgb(248, 245, 240);
+    border: 0px;
+    border-bottom: 2px solid #2e4e47;
+    
+}
+
+.bottom-menu {
+    margin-left: 33%;
+}
+
+.bottom-menu ul li{
+    float: left;
+    text-align: center;
+    padding: 0 15px 15px 0;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+/*------------- alexandra ----------*/
+@font-face {
+    font-family: 'Caviar Dreams Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../font/Caviar_Dreams_Bold.ttf");
+}
+    
+.banner-whiteicons {
+    background-color: #2e4e47;
+    color: white;
+    font-family: 'Caviar Dreams Bold';
+    min-height: 200px;
+}
+
+.whiteicons {
+    min-width: 60px;
+    padding-top: 10px;
+}
+
+.smalltype {
+    font-size: 11px;
+}
+
+
+
+
 @media only screen and (max-width: 990px) {
     .menu,
-    .count {
+    .green-line-icons,
+    .count,
+    .logo,
+    .green-sction,
+    .image-section,
+    .footer {
         display: none;
     }
     .col {
         width: 100%;
-    }
-    .logo {
-        display: none;
     }
     .logo-center {
         display: block;
@@ -356,11 +441,6 @@ span {
     }
     .small-text {
         font-size: 8px;
-    }
-    .contact-form {
-        width: 100%;
-        height: 200px;
-        background-color: coral;
     }
     .container-second {
         display: none;
