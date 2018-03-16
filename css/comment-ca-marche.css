@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Caviar";
+    src: url("../font/Caviar_Dreams_Bold.ttf");
+}
+
+.comment-marche {
+    font-size: 38px;
+}
+
+.comment-script {
+    font-family: 'Meddon', cursive;
+    padding-bottom: none;
+    margin-bottom: none;
+    text-align: center;
+}
+
+.comment-lineart {
+    padding-top: none;
+    margin-top: none;
+}
+
+.comment-line {
+    width: 87%;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 65px;
+}
+
+.icon-types {
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+}    
+
+.ensavoirbutton {
+    color: #ffffff;
+    background-color: #faa179;
+    width: 80%;
+    height: 40px;
+    border: 1px solid #faa179;
+    margin-top: 40px;
+}

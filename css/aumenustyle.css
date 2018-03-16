@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Caviar";
+    src: url("../font/Caviar_Dreams_Bold.ttf");
+}
+
+.aumenu {
+    font-size: 38px;
+}
+
+.aumenu-script {
+    font-family: 'Meddon', cursive;
+    padding-bottom: none;
+    margin-bottom: none;
+    text-align: center;
+}
+
+.lineart {
+    padding-top: none;
+    margin-top: none;
+}
+
+.aumenu-line {
+    width: 100%;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 65px;
+
+}
+
+.justify-content-center {
+    font-family: 'ABeeZee', sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.diet-type {
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+    color: grey;
+    letter-spacing: 3px;
+}
+
+.dish-caption {
+    height: 60px;
+    background-color: #2e4e47;
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    font-size: 14px;
+}
+
+.img-fluid-aumenu {
+    width: 400px; 
+    margin: none;
+}
+
+.jecuisine {
+    color: #ffffff;
+    background-color: #faa179;
+    height: 40px;
+    width: 90%;
+    border: 1px solid #faa179;
+    margin-top: 40px;
+}    
