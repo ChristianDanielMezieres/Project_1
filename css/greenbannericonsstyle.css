@@ -1,0 +1,23 @@
+
+@font-face {
+    font-family: 'Caviar Dreams Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../font/Caviar_Dreams_Bold.ttf");
+}
+    
+.banner-whiteicons {
+    background-color: #2e4e47;
+    color: white;
+    font-family: 'Caviar Dreams Bold';
+    min-height: 200px;
+}
+
+.whiteicons {
+    min-width: 60px;
+    margin-top: 30px;
+}
+
+.smalltype {
+    font-size: 11px;
+}
