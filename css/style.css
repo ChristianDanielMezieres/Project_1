@@ -196,6 +196,10 @@ a:hover {
     padding-top: 40px;
 }
 
+.big-headline {
+    font-size: 40px
+}
+
 .container-third {
     background-color: rgb(252, 247, 241);
     min-height: 400px;
