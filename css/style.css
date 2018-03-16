@@ -200,6 +200,10 @@ a:hover {
     font-size: 40px
 }
 
+.no-padding {
+    padding: 0;
+}
+
 .container-third {
     background-color: rgb(252, 247, 241);
     min-height: 400px;
@@ -250,7 +254,7 @@ a:hover {
 }
 
 .contact-form {
-    display: none;
+    /* display: none; */
 }
 
 .caroussel-center {
