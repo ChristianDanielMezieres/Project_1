@@ -1,5 +1,3 @@
-
-
 .instagramsectiontitle {
     font-size: 34px;
     padding-top: 5px;
@@ -25,16 +23,16 @@
     margin-top: 0px;
 }
 
-.col-md-6 {
+.insta-btn {
     text-align: center;
 }
 
-
 .linephotos {
-    width: 100vw;
-    margin: none;
+    /* width: 100vw; */
+    margin: 0;
 }
-    
-.col-md-2 {
-   margin: none; 
-    }
+
+.lineof {
+    margin: 0;
+    padding: 0;
+}

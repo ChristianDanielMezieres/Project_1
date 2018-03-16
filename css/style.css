@@ -83,10 +83,9 @@ a:hover {
     font-family: "Caviar";
 }
 
-
-/* span {
+.span-font {
     font-family: 'Meddon';
-} */
+}
 
 .bt_count a:link {
     color: #000000;
@@ -108,7 +107,7 @@ a:hover {
 }
 
 .banner {
-    height: 380px;
+    height: 500px;
     background: url("../img/header_IF_mobile.jpg") no-repeat;
     background-size: 100%;
     right: 0;
@@ -127,6 +126,7 @@ a:hover {
     width: 300px;
     height: 40px;
     border: 1px solid #faa179;
+    margin-top: 40px;
 }
 
 .savoir_plus {
@@ -192,8 +192,7 @@ a:hover {
 .container-second {
     background-color: rgb(252, 247, 241);
     height: 800px;
-    width: 100%;
-    margin-top: 40px;
+    margin: 40px 0 0 0px;
     padding-top: 40px;
 }
 
@@ -201,6 +200,11 @@ a:hover {
     background-color: rgb(252, 247, 241);
     min-height: 400px;
     width: 100%;
+}
+
+.text-carousel {
+    text-align: center;
+    margin: 70px 0 70px;
 }
 
 .carousel-where {
@@ -249,9 +253,153 @@ a:hover {
     align-content: center;
 }
 
+
+/*--------------- section image la boite du mois -------------------*/
+
+.container-green {
+    background-size: 100%;
+}
+
+.green-sction {
+    background-color: #b4bb9a;
+    width: cover;
+    min-height: 200px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 40px;
+    font-size: 24px;
+    line-height: 16px;
+    margin-left: -15px;
+}
+
+.green-bar-section {
+    width: 60%;
+    height: 1px;
+    background-color: #2e4e47;
+}
+
+.text-green-section-white {
+    color: #ffffff;
+    font-family: "arial";
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 2px;
+}
+
+.text-green-section {
+    color: #2e4e47;
+    font-family: "arial";
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 10px;
+}
+
+.image-section {
+    background-image: url("../img/table.jpg");
+    background-size: cover;
+    min-height: 450px;
+    width: 100%;
+}
+
+.green-section-table {
+    font-size: 8em;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.btn-abonne {
+    background-color: #ffffff;
+    font-size: 16px;
+    color: #2e4e47;
+    padding: 0 10px 0 10px;
+    border: 1px solid #ffffff;
+    height: 35px;
+    width: 200px;
+    position: relative;
+    left: 43%;
+}
+
+.footer {
+    background-color: rgb(248, 245, 240);
+    min-height: 200px;
+    padding-top: 30px;
+    color: #2e4e47;
+    font-size: 14px;
+}
+
+.footer ul li {
+    list-style: none;
+    color: #2e4e47;
+    padding: 3px;
+}
+
+.footer ul li a {
+    text-decoration-style: none;
+    color: #2e4e47;
+    width: 350px;
+}
+
+form {
+    border: 3px solid #2e4e47;
+    padding: 5px;
+    width: 350px;
+    height: 200px;
+}
+
+input {
+    width: 320px;
+    background-color: rgb(248, 245, 240);
+    border: 0px;
+    border-bottom: 2px solid #2e4e47;
+}
+
+.bottom-menu {
+    margin-left: 33%;
+}
+
+.bottom-menu ul li {
+    float: left;
+    text-align: center;
+    padding: 0 15px 15px 0;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+
+/*------------- alexandra ----------*/
+
+@font-face {
+    font-family: 'Caviar Dreams Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../font/Caviar_Dreams_Bold.ttf");
+}
+
+.banner-whiteicons {
+    background-color: #2e4e47;
+    color: white;
+    font-family: 'Caviar Dreams Bold';
+    min-height: 200px;
+}
+
+.whiteicons {
+    min-width: 60px;
+    padding-top: 10px;
+}
+
+.smalltype {
+    font-size: 11px;
+}
+
 @media only screen and (max-width: 990px) {
     .menu,
-    .count {
+    .green-line-icons,
+    .count,
+    .logo,
+    .green-sction,
+    .image-section,
+    .footer {
         display: none;
     }
     .col {
@@ -269,9 +417,9 @@ a:hover {
     .panier {
         display: none;
     }
-    .container {
+    /* .container {
         display: none;
-    }
+    } */
     .livraison {
         background-color: #2e4e47;
         color: #ffffff;
